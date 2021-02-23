@@ -1,5 +1,6 @@
 # generate-adr-log
-Generates an HTML page from your ADR records created with adr-tools
+Generates an HTML page from your Architecture Decision Records as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
+Assumes that the records were created with adr-tools
 
 ## To Use
 

@@ -1,5 +1,5 @@
 
-while getopts u:a:f:o: flag
+while getopts f:o: flag
 do
     case "${flag}" in
         f) adrsLocation=${OPTARG};;

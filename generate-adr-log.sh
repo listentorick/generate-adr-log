@@ -16,6 +16,6 @@ cd $adrsLocation
 
 adr generate toc > "${outputLocation}/index.md"
 cd $outputLocation
-for f in *.md; do pandoc "$f"  -f markdown -t html  --filter "${DIR}/link_filter.py" -s -o "${f%.md}.html"; done
+for f in *.md; do pandoc --wrap=preserve "$f"  -f markdown+hard_line_breaks  -t html  --filter "${DIR}/link_filter.py" -s -o "${f%.md}.html"; done
  
 rm $outputLocation/*.md 

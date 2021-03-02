@@ -4,7 +4,9 @@ Assumes that the records were created with adr-tools
 
 ## To Use
 
-generate-adr-log -f "/c/myrepo" -o "/c/myoutput"
+./generate-adr-log -f "/c/myrepo" -o "/c/myoutput"
+
+The assumption here is the decision records are stored in /c/myrepo/doc/architecture/decisions
 
 ## Requirements
 
